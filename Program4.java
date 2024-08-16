@@ -1,11 +1,5 @@
 //Youre on your own!
 //Jk ask for help if you need it (but also look at previous programs!!)
-
-
-
-//Paste console output below:
-//Youre on your own!
-//Jk ask for help if you need it (but also look at previous programs!!)
 import  java.util.Scanner;
 public class program4{
     public static void main(String [] args){
@@ -31,7 +25,16 @@ public class program4{
         //calculate
         sum = (x+y+z+w);
         average = ((x+y+z+w)/4);
-        average_1 = ((x+y+z+w)/4.0);
+        average_1 = (double) ((x+y+z+w)/4.0);
+        
+        System.out.println("The sum is: " + sum );
+        System.out.println();
+        System.out.println("The average is: " + average);
+        System.out.println();
+        System.out.println("The Decimal average is: " + average_1);
+        
+        
+        
     
         
         
@@ -53,10 +56,3 @@ public class program4{
 
 
 */
-
-/*
-
-
-
-*/
-
